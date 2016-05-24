@@ -19,6 +19,7 @@ var checkcombo = function() {
   // if any two numbers are correct, the background should be #e3cb67
   // If any three numbers are correct, the background should be #bcdd4e
 
+
 var a = $('.one').text();
 var b = $('.two').text();
 var c = $('.three').text();
@@ -37,8 +38,6 @@ else if (correct == 3)
     $('body').css('background', '#e69458');
 else
   $('body').css('background', '#d27666');
-
-
 
 
 
